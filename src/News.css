@@ -1,0 +1,23 @@
+/* News.css */
+
+.News .volunteer-card {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .News .volunteer-card:hover {
+    transform: scale(1.1);
+  }
+  
+  .News img {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .News img:hover {
+    transform: scale(1.1);
+  }
+  
+  .News h3,
+  .News h5 {
+    color: #343a40; /* Set your desired text color */
+  }
+  

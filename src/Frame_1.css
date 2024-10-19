@@ -1,0 +1,13 @@
+.photu{
+    background-image: url('images/rectangle_4_copy_2.jpg');
+}
+@media (max-width: 450px) {
+    .display-5 {
+        font-size: 1rem; 
+      }
+      .card-text {
+        font-size: 0.6rem; 
+      }
+        
+  }
+  

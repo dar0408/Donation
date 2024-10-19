@@ -1,0 +1,90 @@
+/* Default styles for larger screens */
+.col-sm-12.col-md-4.col-lg-4 {
+    margin-bottom: 15px;
+  }
+  
+  .card-body.text-light.abc {
+    padding: 0;
+  }
+  
+  .progress {
+    padding: 15px;
+    background: rgb(255, 255, 255);
+    border-radius: 30px;
+  }
+  
+  .progress-bar {
+    height: 20px;
+  }
+  
+  .text-dark {
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  p {
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 15px;
+  }
+  
+  .fs-4 {
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .btn.btn-dark {
+    border-radius: 26px;
+    font-weight: 700;
+    position: relative;
+    z-index: 1;
+  }
+  
+  /* Responsive styles for screens with a width of 450px or less */
+  @media (max-width: 450px) {
+    .col-sm-12.col-md-4.col-lg-4 {
+      margin-bottom: 15px;
+    }
+  
+    .card-body.text-light.abc {
+      padding: 10px;
+    }
+  
+    .progress {
+      padding: 10px;
+    }
+  
+    .progress-bar {
+      height: 15px;
+    }
+  
+    .text-dark {
+      font-size: 14px;
+    }
+  
+    p {
+      font-size: 12px;
+      margin-top: 10px;
+    }
+  .fs-4 {
+    font-size: calc(2rem + .3vw)!important;
+}
+  
+    .btn.btn-dark {
+      font-size: 14px;
+      border-radius: 20px;
+    }
+  
+    /* Adjust styles for Image_2 at 450px */
+    .card-img-overlay {
+      padding-top: 50px; /* Adjust the padding-top as needed */
+    }
+  
+    .card-img img {
+      width: 100%; /* Make Image_2 responsive */
+      max-width: 100%;
+      height: auto;
+      
+    }
+  }
+  

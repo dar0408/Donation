@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        form {
+            max-width: 600px;
+            margin: auto;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        .address-section {
+            display: none;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<form action="/submit_donation" method="post">
+    <h2>Donation Form</h2>
+
+    <!-- Donor Information -->
+    <label for="donorName">Name:</label>
+    <input type="text" id="donorName" name="donorName" required>
+
+    <label for="donorEmail">Email:</label>
+    <input type="email" id="donorEmail" name="donorEmail" required>
+
+    <label for="donorPhone">Phone:</label>
+    <input type="tel" id="donorPhone" name="donorPhone" required>
+
+    <!-- Donation Type -->
+    <label for="donationType">Donation Type:</label>
+    <select id="donationType" name="donationType" required>
+        <option value="monetary">Monetary</option>
+        <option value="product">Product</option>
+    </select>
+
+    <!-- Monetary Donation Details -->
+    <div id="monetaryDetails">
+        <label for="amount">Amount (INR):</label>
+        <input type="number" id="amount" name="amount" step="0.01" min="0" required>
+    </div>
+
+    <!-- Product Donation Details -->
+    <div id="productDetails">
+        <label for="productName">Product Name:</label>
+        <input type="text" id="productName" name="productName">
+
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" min="1">
+    </div>
+
+    <!-- Address Section (Displayed only for Product Donations) -->
+    <div id="addressSection" class="address-section">
+        <h3>Shipping Address</h3>
+
+        <label for="addressLine1">Address Line 1:</label>
+        <input type="text" id="addressLine1" name="addressLine1">
+
+        <label for="addressLine2">Address Line 2:</label>
+        <input type="text" id="addressLine2" name="addressLine2">
+
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city">
+
+        <label for="state">State:</label>
+        <input type="text" id="state" name="state">
+
+        <label for="postalCode">Postal Code:</label>
+        <input type="text" id="postalCode" name="postalCode">
+    </div>
+
+    <!-- Additional Comments -->
+    <label for="comments">Comments:</label>
+    <textarea id="comments" name="comments" rows="4"></textarea>
+
+    <!-- Submit Button -->
+    <button type="submit">Submit Donation</button>
+</form>
+
+<script>
+    document.getElementById('donationType').addEventListener('change', function() {
+        var monetaryDetails = document.getElementById('monetaryDetails');
+        var productDetails = document.getElementById('productDetails');
+        var addressSection = document.getElementById('addressSection');
+
+        if (this.value === 'monetary') {
+            monetaryDetails.style.display = 'block';
+            productDetails.style.display = 'none';
+            addressSection.style.display = 'none';
+        } else if (this.value === 'product') {
+            monetaryDetails.style.display = 'none';
+            productDetails.style.display = 'block';
+            addressSection.style.display = 'block';
+        }
+    });
+</script>
+
+</body>
+</html>

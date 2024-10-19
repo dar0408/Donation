@@ -1,0 +1,71 @@
+.card-body {
+    text-align:left; 
+  }
+  
+ 
+  
+  
+  @media (max-width: 767px) {
+    .display-5 {
+      font-size: 1.2rem; 
+    }
+  
+    .display-4 {
+      font-size: 1rem; 
+    }
+  
+    .card-text {
+      font-size: 0.7rem; 
+    }
+  
+    .btn {
+      font-size: 0.6rem; 
+      padding: 5px 10px; 
+    }
+    .hidden {
+        font-size: 0.5rem;
+      }
+      
+
+  }
+  
+@media (max-width: 450px) {
+  .display-5 {
+    font-size: 1.2rem; 
+  }
+
+  .card-text {
+    font-size: 0.6rem; 
+  }
+
+  .hidden {
+    font-size: 0.4rem !important;
+  }
+
+  .btn {
+    font-size: 0.1rem; 
+    padding: 2px 4px; 
+
+  }
+  .mt-4 {
+    margin-top: 2px; 
+  }
+
+  .ms-md-5 {
+    margin-left: 0px; 
+  }
+  .card-body{
+    padding: 0.1rem;
+    margin: 1px;
+  }
+
+.margin{
+    margin-top: -45px;
+}
+.margin1{
+    margin-top: -30px;
+}
+.margin2{
+    margin-top: -60px;
+}
+}

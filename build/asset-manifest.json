@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fdb71142.css",
+    "main.js": "/static/js/main.3adb800a.js",
+    "static/js/787.ff47eeab.chunk.js": "/static/js/787.ff47eeab.chunk.js",
+    "static/media/layer_27.png": "/static/media/layer_27.01ea96d45c4f4cfaff5a.png",
+    "static/media/rectangle_4_copy_2.jpg": "/static/media/rectangle_4_copy_2.45a71efb6344d064229d.jpg",
+    "static/media/rectangle_2.jpg": "/static/media/rectangle_2.a2f94ae494e91c17be05.jpg",
+    "static/media/rectangle_4_copy_3.jpg": "/static/media/rectangle_4_copy_3.df6884bd873246d38ca7.jpg",
+    "static/media/rectangle_3_copy.jpg": "/static/media/rectangle_3_copy.06efc00466225fa6aca4.jpg",
+    "static/media/ellipse_1_copy_2.png": "/static/media/ellipse_1_copy_2.d5f43f39f6d9cad1ebc7.png",
+    "static/media/ellipse_1_copy.png": "/static/media/ellipse_1_copy.e092035d7c86e8e67709.png",
+    "static/media/ellipse_1.png": "/static/media/ellipse_1.df642f80b69acd6873be.png",
+    "static/media/ellipse_1_copy_3.png": "/static/media/ellipse_1_copy_3.e7d5a81adde0d7d0eb7b.png",
+    "static/media/ellipse_1_copy_4_3.png": "/static/media/ellipse_1_copy_4_3.851f96aacae4ee9371e9.png",
+    "static/media/ellipse_1_copy_4_2.png": "/static/media/ellipse_1_copy_4_2.aed0f2e323dc83dc5ffc.png",
+    "static/media/ellipse_1_copy_4.png": "/static/media/ellipse_1_copy_4.fab45728b21a9c21c62b.png",
+    "static/media/rectangle_3_2.jpg": "/static/media/rectangle_3_2.2fbce31c63d05baa03bf.jpg",
+    "static/media/rectangle_3.jpg": "/static/media/rectangle_3.0ad95065c3560eb6820b.jpg",
+    "static/media/rectangle_3_3.jpg": "/static/media/rectangle_3_3.642aa33fe03ac964a734.jpg",
+    "static/media/ellipse_1_copy_4_4.png": "/static/media/ellipse_1_copy_4_4.e00184e3d81b9e6fe115.png",
+    "static/media/rectangle_1.jpg": "/static/media/rectangle_1.229af411d65ce12f59fe.jpg",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.fdb71142.css.map": "/static/css/main.fdb71142.css.map",
+    "main.3adb800a.js.map": "/static/js/main.3adb800a.js.map",
+    "787.ff47eeab.chunk.js.map": "/static/js/787.ff47eeab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fdb71142.css",
+    "static/js/main.3adb800a.js"
+  ]
+}
